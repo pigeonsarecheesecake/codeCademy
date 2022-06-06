@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;800&family=Poppins:wght@100;200;300;400;500;700&family=Raleway:ital,wght@0,400;1,300;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>William's Style Guide</h1>
+        <ul class="navigation-bar">
+            <li><a href="#colors">Colors</a></li>
+            <li><a href="#fonts">Font</a></li>
+            <li><a href="#text-styles">Text Styles</a></li>
+        </ul>
+    </header>
+   
+    <!-- Colors Section -->
+    <div class="container" id="colors">
+        <h2>Colors</h2>
+        <div class="colors-container">
+            <div class="colors neutral">Neutral<br>
+                #E8DED1
+            </div>
+            <div class="colors mint-green">Mint Green<br>
+                #A2E4B8
+            </div>
+            <div class="colors chocolate">Earth Chocolate<br>
+                #451b04
+            </div>
+            <div class="colors matcha-green">Color2<br>
+                #81b14f
+            </div>
+        </div>
+    </div>
+    <!--Fonts  -->
+    <div class="container" id="fonts">
+        <h2>Fonts</h2>
+        <div class="font poppins">
+            <h3>Poppins</h3>
+            <p >If you don’t take risks, you can’t create a future!</p>
+            <p class="bold">If you don’t take risks, you can’t create a future!</p>
+            <p class="italic">If you don’t take risks, you can’t create a future!</p>
+        </div>
+
+        <div class="font raleway">
+            <h3>Raleway</h3>
+            <p >When you give up, that’s when the game ends.</p> 
+            <p class="bold">When you give up, that’s when the game ends.</p> 
+            <p class="italic">When you give up, that’s when the game ends.</p> 
+        </div>
+
+        <div class="font dosis">
+            <h3>Dosis</h3>
+            <p >People’s lives don’t end when they die, it ends when they lose faith.</p>  
+            <p class="bold">People’s lives don’t end when they die, it ends when they lose faith.</p>  
+            <p class="italic">People’s lives don’t end when they die, it ends when they lose faith.</p>  
+  
+        </div>
+    </div>
+    <!-- Text Styles -->
+    <div class="container" id="text-styles">
+        <h2>Text Styles</h2>
+        <div class="main-page">
+            <h1>H1: Main page heading</h1>
+            <ul>
+                <li>Font-weight: 700(Bold)</li>
+                <li>Font-size: 32px</li>
+                <li>Font-Family: Poppins</li>
+            </ul>
+        </div>
+        <div class="subheading">
+            <h2 id="h2-dosis">H2: Subheading</h1>
+            <ul>
+                <li>Font-weight: 500</li>
+                <li>Font-size: 24</li>
+                <li>Font-Family: Dosis</li>
+            </ul>
+        </div>
+        <div class="paragraph">
+            <p>P.Paragraph text</p>
+            <ul>
+                <li>Font-weight: 400(regular)</li>
+                <li>Font-size: 16px</li>
+                <li>Font-Family: Poppins</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
