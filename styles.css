@@ -1,0 +1,91 @@
+body{
+    font-family: 'poppins';
+    margin:0 10%;
+    
+}
+
+/* Navigation  */
+h1, .navigation-bar, .navigation-bar li{
+    display: inline-block;
+} 
+.navigation-bar, .navigation-bar li{
+    float:right;
+    margin-top: 20px;
+    margin: 20px;
+    color: black;
+} 
+
+.navigation-bar a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-bar a:hover{
+    text-decoration: underline;
+}
+
+.navigation-bar a:active{
+    color: gray;
+}
+
+/* container */
+.container, .colors{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 0 40px;
+    clear: right;
+}
+.container{
+    margin:40px 0;
+}
+/* Color Section */
+.colors{
+    display: inline-block;
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px;
+    width: 29%;
+    border: none;
+    padding: 20px;
+}
+
+.neutral{
+    background-color: #E8DED1;
+}
+.mint-green{
+    background-color: #A2E4B8	; 
+}
+.matcha-green{
+    background-color: #81b14f	; 
+}
+
+.chocolate{
+    background-color: #451b04;
+    color: white;
+}
+
+/* Font Section */
+.font{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.raleway{
+    font-family: 'raleway';
+}
+
+.dosis, .subheading{
+    font-family: 'dosis';
+}
+
+.font .bold{
+    font-weight: bold;
+}
+
+.font #h2-dosis{
+    font-style: italic;
+}
+
+
+
